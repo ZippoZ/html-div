@@ -1,12 +1,44 @@
-*.class
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>测试文档</title>
+</head>
+ <style>
+ .a{
+	 text-align:center;
+	 border:2px solid BLACK;
+	 height:500PX;
+	 width:600PX;
+	 }
+.B{
+	 border:1px solid BLACK;
+	 height:90PX;
+	 width:600PX;
+	 background:url(image/2.jpg);
+	 font-size:36px;
+	}
+.C{
+	border:1px solid BLACK;
+	 height:300PX;
+	 width:600PX;
+	}
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+ </style>
+<body>
+<div class="a" >
+	#container
+	<div text-align:center class="B">
+    		用户登入
+	</div>
+    <div class="C">
+   	用户名：	 <input type="text" name="UserName" /><br/>
+    密码：	<input type="password" name="psd" /><br/>
+    <input type="submit" name="sumbit" value="登入" />
+    <input type="reset" name="reset" value="重置" />
+    </div>
+    <div text-align:center class="B" >
+   	#botton</div>
+</div>
+</body>
+</html>
